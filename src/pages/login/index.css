@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.form {
+  position: relative;
+  z-index: 1;
+  /* width: 100% !important; */
+  background: #ffffff;
+  max-width: 100%;
+  /* width: 25vw; */
+  margin: 0 auto 100px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  /* margin: 0 0 15px; */
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #c13f28;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #c13f28;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #c13f28;
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 700;
+  /* height: 50px; */
+  /* width: 100% !important; */
+  font-size: 13px !important;
+}
+
+.otp-input-wrapper {
+  width: 240px;
+  text-align: left;
+  display: inline-block;
+}
+.otp-input-wrapper input {
+  padding: 0;
+  width: 264px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #3e3e3e;
+  background-color: transparent;
+  border: 0;
+  margin-left: 12px;
+  letter-spacing: 48px;
+  font-family: sans-serif !important;
+}
+.otp-input-wrapper input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.otp-input-wrapper svg {
+  position: relative;
+  display: block;
+  width: 240px;
+  height: 2px;
+}
+.bg-pic {
+  background-image: url("../../components/assests/image/wooden-table-with-tree-landscape-background.jpg");
+  height: 100vh;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.foneer {
+  font-size: 14px;
+}
+
+/* .btun{
+  padding: 13px !important;
+}
+.inputs{
+  padding: 13px !important;
+} */
